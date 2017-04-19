@@ -1,6 +1,6 @@
+/*Program for generating functional value at a given point using the process of Backward Interpolation.*/
+
 import java.util.Scanner; /*importing the Scanner class of the 'util' package to accept necessary inputs from the user*/
-
-
 
 class Backward
 {
