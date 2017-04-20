@@ -7,7 +7,7 @@ class PrimeRange                    //Defining Class
  public static void main(String args[])
  {
   Scanner S=new Scanner(System.in);         //Defining Scanner Class
-  int start,stop,flag;
+  int start,stop,flag,range=0;
   System.out.println("Enter the start and stop range.");
   start=S.nextInt();
   stop=S.nextInt();
@@ -21,7 +21,8 @@ class PrimeRange                    //Defining Class
     for(int i=start;i<=stop;i++)            //Loop between start and last range
     {
       flag=0;
-      for(int j=2;j<=i/2;j++)
+      range=(int)Math.sqrt(i);
+      for(int j=2;j<=range;j++)
       {
         if(i%j==0)                         //Checking for divisibility
         {
