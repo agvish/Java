@@ -1,6 +1,8 @@
+/*The following code is designed to implement Backward Interpolation.
+The main() here is used for testing purpose.*/
+
+
 import java.util.Scanner; /*importing the Scanner class of the 'util' package to accept necessary inputs from the user*/
-
-
 
 class Backward
 {
@@ -58,7 +60,7 @@ class Backward
         
             if(pivot<x[0] || pivot>x[n-1])
             {
-                System.out.println(x+" does not lies between ["+x[0]+","+x[n-1]+"]");
+                System.out.println(pivot+" does not lies between ["+x[0]+","+x[n-1]+"]");
                 System.out.println("Please try again with correct values.");
                 System.exit(1);
             }
